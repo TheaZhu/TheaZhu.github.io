@@ -104,7 +104,7 @@
 <meta property="og:site_name" content="Thea loves android">
 <meta property="og:description" content="AIDL (Android Interface Definition Language)是Android内部进程通信(IPC)的接口定义语言，通过它可以定义客户端与服务器端的通信接口，实现跨进程通信。
 只有当需要允许来自不同应用的客户端跨进程通信访问Service，且想要在Service中处理多线程的时候AIDL才是必要的。如果不需要执行不同应用之间的IPC并发，可以通过实现Binder建立接口；">
-<meta property="og:updated_time" content="2016-09-26T06:45:41.316Z">
+<meta property="og:updated_time" content="2016-09-26T07:11:28.329Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Android开发笔记-AIDL开发">
 <meta name="twitter:description" content="AIDL (Android Interface Definition Language)是Android内部进程通信(IPC)的接口定义语言，通过它可以定义客户端与服务器端的通信接口，实现跨进程通信。
@@ -279,6 +279,25 @@
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Android开发笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">Android开发笔记</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -304,6 +323,7 @@
         <p>AIDL (Android Interface Definition Language)是Android内部进程通信(IPC)的接口定义语言，通过它可以定义客户端与服务器端的通信接口，实现跨进程通信。</p>
 <p>只有当需要允许来自不同应用的客户端跨进程通信访问Service，且想要在Service中处理多线程的时候AIDL才是必要的。如果不需要执行不同应用之间的IPC并发，可以通过实现Binder建立接口；如果需要执行IPC，但不需要处理多线程，可以使用Messenger实现接口。</p>
 <p>在使用AIDL之前，需要先了解<a href="http://developer.android.com/guide/components/bound-services.html" target="_blank" rel="external">Bound Services</a>。</p>
+<!-- 阅读更多 -->
 <h2 id="使用AIDL三部曲"><a href="#使用AIDL三部曲" class="headerlink" title="使用AIDL三部曲"></a>使用AIDL三部曲</h2><h3 id="1-创建-aidl文件"><a href="#1-创建-aidl文件" class="headerlink" title="1. 创建.aidl文件"></a>1. 创建.aidl文件</h3><p>在src/main/aidl/%packagename%/下创建.aidl文件，定义接口方法。</p>
 <p>.aidl文件中只能定义方法，不能定义静态变量。</p>
 <p>.aidl文件支持的数据类型：</p>
@@ -404,20 +424,6 @@ void sort(inout int[] source);
       
 
       
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2016/09/25/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
-              </a>
-            
-          </div>
-
-          <div class="post-nav-prev post-nav-item">
-            
-          </div>
-        </div>
-      
 
       
       
@@ -481,17 +487,24 @@ void sort(inout int[] source);
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-count">1</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
           
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              
+            </div>
+          
 
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">1</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
