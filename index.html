@@ -45,12 +45,6 @@
   
 
   
-    
-      
-    
-
-    
-  
 
   
 
@@ -73,7 +67,7 @@
   
     
     
-    <link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,700,700italic|Lobster:300,300italic,400,400italic,700,700italic|Source Code Pro:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
@@ -307,7 +301,7 @@
       
         
           
-            <h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>AIDL (Android Interface Definition Language)是Android内部进程通信(IPC)的接口定义语言，通过它可以定义客户端与服务器端的通信接口，实现跨进程通信。</p>
+            <p>AIDL (Android Interface Definition Language)是Android内部进程通信(IPC)的接口定义语言，通过它可以定义客户端与服务器端的通信接口，实现跨进程通信。</p>
 <p>只有当需要允许来自不同应用的客户端跨进程通信访问Service，且想要在Service中处理多线程的时候AIDL才是必要的。如果不需要执行不同应用之间的IPC并发，可以通过实现Binder建立接口；如果需要执行IPC，但不需要处理多线程，可以使用Messenger实现接口。</p>
 <p>在使用AIDL之前，需要先了解<a href="http://developer.android.com/guide/components/bound-services.html" target="_blank" rel="external">Bound Services</a>。</p>
 <h2 id="使用AIDL三部曲"><a href="#使用AIDL三部曲" class="headerlink" title="使用AIDL三部曲"></a>使用AIDL三部曲</h2><h3 id="1-创建-aidl文件"><a href="#1-创建-aidl文件" class="headerlink" title="1. 创建.aidl文件"></a>1. 创建.aidl文件</h3><p>在src/main/aidl/%packagename%/下创建.aidl文件，定义接口方法。</p>
