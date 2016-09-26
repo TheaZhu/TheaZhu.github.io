@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #06d595;
+  background: #79ffd7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2189,7 +2189,6 @@ hr {
   overflow: hidden;
   margin: 0 auto;
   width: 75%;
-  color: #fff;
 }
 @media (max-width: 767px) {
   .logo-line-before,
@@ -2202,7 +2201,7 @@ hr {
   position: relative;
   display: block;
   height: 2px;
-  background: #fff;
+  background: #ddd;
 }
 @media (max-width: 767px) {
   .logo-line-before i,
