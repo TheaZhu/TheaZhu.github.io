@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffffd1;
+  background: #fff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2244,6 +2244,7 @@ hr {
   }
 }
 .menu .menu-item a {
+  color: #fff;
   padding: 0 10px;
   background: none;
   border: none;
